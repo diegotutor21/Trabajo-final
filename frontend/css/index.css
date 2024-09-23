@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+
+* {
+  line-height: 1.6;
+}
+
+body {
+  font-family: "Playpen Sans", sans-serif;
+}
+
+h1 {
+  color:black;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.contenido {
+  columns: 200px 2;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+.banner {
+  background-color: #004d74;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.title {
+  column-span: all;
+  display: block;
+  font-weight: bold;
+}
+
+main {
+  font-family: "playpen sans", sans-serif;
+  text-align: justify;
+  padding: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.fb {
+  width: 90%;
+}
+
+span {
+  font-weight: bold;
+  color: #004d74;
+}
+
+.span {
+  color: #f4fefd;
+}
+
+.list {
+  list-style: none;
+  color: #f4fefd;
+}
+
+.list li::before {
+  content: "</>";
+  margin-right: 8px;
+  color: #f4fefd;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0px;
+  }
+
+  .banner {
+    rotate: 0deg;
+  }
+}

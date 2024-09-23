@@ -1,0 +1,16 @@
+/* Personalización de Bootstrap */
+.bg-custom {
+  background-color: #032030;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d1b2; /* Color al pasar el ratón */
+}
